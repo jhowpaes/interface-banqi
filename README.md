@@ -11,6 +11,8 @@ yarn ios or yarn android
 
 ```
 
+## :exclamation: Test performed only on IOS
+
 ## Technology
 
 - Expo
