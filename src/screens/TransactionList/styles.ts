@@ -1,10 +1,12 @@
 import styled from 'styled-components/native';
 import { FlatList } from 'react-native';
 
-export const Container = styled.ScrollView`
+export const Container = styled.View`
+  flex: 1;
 `;
 
 export const ListContainer = styled.View`
+  flex: 1;
 `;
 
 export const ListHeader = styled.View`
@@ -29,6 +31,7 @@ export const TransactionBalance = styled.Text`
 `;
 
 export const ListItensContainer = styled(FlatList)`
+  flex: 1
   margin-top: 20px;
   margin-left: 20px;
   margin-right: 20px;
