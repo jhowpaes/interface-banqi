@@ -1,7 +1,7 @@
 import React from 'react';
 import { View } from 'react-native';
 
-import { Feather, Ionicons } from "@expo/vector-icons";
+import { MaterialIcons, Ionicons } from "@expo/vector-icons";
 
 import { Container, Option, Title, Img } from './styles';
 import { useNavigation } from '@react-navigation/core';
@@ -10,8 +10,8 @@ const items = [
 	{
 		key: String(Math.random()),
 		link: "TabStack",
-		lib: Feather,
-		icon: 'api',
+		lib: MaterialIcons,
+		icon: "api",
 		title: "PIX",
 	},
 	{
@@ -54,8 +54,8 @@ const Menu: React.FC = () => {
           key={item.key} 
           onPress={() => navigation.navigate(`${item.link}`)}
         >
-					{item.lib === Feather ? (
-            <Feather name={item.icon} size={25} color="#EC008C" />
+					{item.lib === MaterialIcons ? (
+            <MaterialIcons name={item.icon} size={25} color="#EC008C" />
           ) : (
             <Ionicons name={item.icon} size={25} color="#EC008C" />
           )}
