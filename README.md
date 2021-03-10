@@ -1,5 +1,9 @@
 ## Interface-banqi
 
+<p align="center">
+  <img alt="demo" src="https://im7.ezgif.com/tmp/ezgif-7-9bda909610b8.gif" width="300px">
+</p>
+
 ## :iphone: Run it!
 
 ```bash
