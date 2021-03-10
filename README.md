@@ -1,7 +1,7 @@
 ## Interface-banqi
 
 <p align="center">
-  <img alt="demo" src="https://im7.ezgif.com/tmp/ezgif-7-9bda909610b8.gif" width="300px">
+  <img alt="demo" src="https://media.giphy.com/media/NuaNNOdqOxT8tjphiE/giphy.gif" width="300px">
 </p>
 
 ## :iphone: Run it!
